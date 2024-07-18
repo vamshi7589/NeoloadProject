@@ -1,0 +1,14 @@
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="${swagger_petstore_base_path}/pet"
+    path="${swagger_petstore_base_path}/pet" postType="4"
+    serverUid="swagger_petstore_server" slaProfileEnabled="false"
+    uid="bba62d1b-e69b-4c91-89b8-af314934968f" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/@swagger @petstore/%resources%/recorded-responses/res_bba62d1b-e69b-4c91-89b8-af314934968f</responsePageFileDescription>
+    <header name="Content-Type" value="application/json"/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[Encoded(Base64):ew0KICAiaWQiIDogMSwNCiAgImNhdGVnb3J5IiA6IHsNCiAgICAiaWQiIDogMSwNCiAgICAibmFtZSIgOiAibmFtZSINCiAgfSwNCiAgIm5hbWUiIDogImRvZ2dpZSIsDQogICJwaG90b1VybHMiIDogWyAicGhvdG9VcmxzIiwgInBob3RvVXJscyIgXSwNCiAgInRhZ3MiIDogWyB7DQogICAgImlkIiA6IDYsDQogICAgIm5hbWUiIDogIm5hbWUiDQogIH0sIHsNCiAgICAiaWQiIDogNiwNCiAgICAibmFtZSIgOiAibmFtZSINCiAgfSBdLA0KICAic3RhdHVzIiA6ICJhdmFpbGFibGUiDQp9]]></textPostContent>
+</http-action>

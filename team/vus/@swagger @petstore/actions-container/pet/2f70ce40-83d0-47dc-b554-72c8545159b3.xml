@@ -1,0 +1,24 @@
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST"
+    name="${swagger_petstore_base_path}/pet/${petId}/uploadImage"
+    path="${swagger_petstore_base_path}/pet/${petId}/uploadImage"
+    postType="3" recordedResponseCode="200"
+    serverUid="swagger_petstore_server" slaProfileEnabled="false"
+    uid="2f70ce40-83d0-47dc-b554-72c8545159b3" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/@swagger @petstore/%resources%/recorded-responses/res_2f70ce40-83d0-47dc-b554-72c8545159b3</responsePageFileDescription>
+    <header name="Content-Type" value="multipart/form-data"/>
+    <responseHeaders>HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 64</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <multiparts>
+        <multipart-string charSet="" contentType=""
+            name="additionalMetadata" recordRawValue=""
+            transferEncoding="" value="" valueMode="USE_VALUE"/>
+        <multipart-file attachedFilename="" charSet="" contentType=""
+            filename="" name="file" transferEncoding=""/>
+    </multiparts>
+</http-action>

@@ -1,0 +1,9 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="store" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="ce4871ee-3584-4740-bbe4-f943eb5396c2" weightsEnabled="false">
+    <weighted-embedded-action uid="ddbd4d96-6ee3-4a33-9116-d4ba7c2a3612"/>
+    <weighted-embedded-action uid="cc7f4a87-80ef-456c-bd02-46083cbacd12"/>
+    <weighted-embedded-action uid="97e3e563-3355-4e70-b9fa-8a95272cadf4"/>
+    <weighted-embedded-action uid="ce61f3e5-3958-4c28-8511-53c2b8ff8d9c"/>
+</basic-logical-action-container>

@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="CREATE" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="450449b3-29be-48dc-b785-4462dec720e2" weightsEnabled="false">
+    <weighted-embedded-action uid="b1ab8bf5-d56b-46d0-bfc9-7672db48eabc"/>
+</basic-logical-action-container>

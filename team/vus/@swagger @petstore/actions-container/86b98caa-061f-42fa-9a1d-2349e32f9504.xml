@@ -1,0 +1,35 @@
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/#/pet/addPet" path="/#/pet/addPet" postType="4"
+    serverUid="petstore.swagger.io" slaProfileEnabled="false"
+    uid="86b98caa-061f-42fa-9a1d-2349e32f9504" useKeepAlive="true">
+    <binaryPostContentBase64><![CDATA[]]></binaryPostContentBase64>
+    <responsePageFileDescription>team/vus/@swagger @petstore/%resources%/recorded-responses/res_86b98caa-061f-42fa-9a1d-2349e32f9504</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/@swagger @petstore/%resources%/recorded-requests/req_86b98caa-061f-42fa-9a1d-2349e32f9504.txt</requestContentFileDescription>
+    <parameter encodeName="true" encodeValue="true" name=""
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <header name="Connection" value="keep-alive"/>
+    <header name="Content-Type" value="application/json "/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{
+  "id": 123,
+  "category": {
+    "id": 12355,
+    "name": "ABX"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 123,
+      "name": "ABCC"
+    }
+  ],
+  "status": "available"
+}]]></textPostContent>
+</http-action>

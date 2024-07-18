@@ -1,0 +1,14 @@
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="DELETE" name="/v2/pet/" path="/v2/pet/${petID}" postType="6"
+    serverUid="petstore.swagger.io" slaProfileEnabled="false"
+    uid="8e6f9f48-9663-4d6f-8356-788eac1a227a" useKeepAlive="true">
+    <binaryPostContentBase64><![CDATA[]]></binaryPostContentBase64>
+    <responsePageFileDescription>team/vus/@a@p@i @t@e@s@t@i@n@g/%resources%/recorded-responses/res_8e6f9f48-9663-4d6f-8356-788eac1a227a</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/@a@p@i @t@e@s@t@i@n@g/%resources%/recorded-requests/req_d86c6a13-cb61-4c22-a8a5-b11615a88636.txt</requestContentFileDescription>
+    <header name="Connection" value="keep-alive"/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

@@ -1,0 +1,89 @@
+<http-soap-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="CalculatorSoap.Multiply" path="/calculator.asmx"
+    postType="4" serverUid="www.dneonline.com" slaProfileEnabled="false"
+    soap-mode="1"
+    soap-wsdl="http://www.dneonline.com/calculator.asmx?WSDL"
+    uid="a818f9ad-2016-4a97-8fb6-63b9c0873692" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/@s@o@a@p@u@i/%resources%/recorded-responses/res_a818f9ad-2016-4a97-8fb6-63b9c0873692</responsePageFileDescription>
+    <header name="SOAPAction" value="&quot;http://tempuri.org/Multiply&quot;"/>
+    <header name="Content-Type" value="text/xml; charset=utf-8"/>
+    <responseHeaders/>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <soap-method attachmentEncapsulationFormat="mime"
+        location="http://www.dneonline.com/calculator.asmx"
+        name="{http://tempuri.org/}Multiply" operationStyle="document"
+        port="{http://tempuri.org/}CalculatorSoap"
+        soapActionURI="http://tempuri.org/Multiply" use="literal"
+        useWrappedStyle="true" version="SOAP11">
+        <soap-headers/>
+        <soap-parameters>
+            <soap-paramValue digesterKind="parameter" kind="sequence"
+                maxOccurs="1" maxOccursUnbounded="false" minOccurs="1"
+                name="Multiply" namespace="http://tempuri.org/">
+                <soap-children>
+                    <soap-paramValue
+                        dataType="com.neotys.nl.soap.values.DataTypeInt"
+                        digesterKind="value" empty="false" encode="true"
+                        kind="simple" maxOccurs="1"
+                        maxOccursUnbounded="false" minOccurs="1"
+                        name="intA" namespace="http://tempuri.org/"
+                        type="{http://www.w3.org/2001/XMLSchema}int" value="${addOutput}">
+                        <facets>
+                            <restriction-facet name="fractionDigits" value="0"/>
+                            <restriction-facet name="maxInclusive" value="2147483647"/>
+                            <restriction-facet name="minInclusive" value="-2147483648"/>
+                            <restriction-facet name="whiteSpace" value="collapse"/>
+                        </facets>
+                    </soap-paramValue>
+                    <soap-paramValue
+                        dataType="com.neotys.nl.soap.values.DataTypeInt"
+                        digesterKind="value" empty="false" encode="true"
+                        kind="simple" maxOccurs="1"
+                        maxOccursUnbounded="false" minOccurs="1"
+                        name="intB" namespace="http://tempuri.org/"
+                        type="{http://www.w3.org/2001/XMLSchema}int" value="${addOutput}">
+                        <facets>
+                            <restriction-facet name="fractionDigits" value="0"/>
+                            <restriction-facet name="maxInclusive" value="2147483647"/>
+                            <restriction-facet name="minInclusive" value="-2147483648"/>
+                            <restriction-facet name="whiteSpace" value="collapse"/>
+                        </facets>
+                    </soap-paramValue>
+                </soap-children>
+                <soap-possibleChildren>
+                    <soap-paramValue
+                        dataType="com.neotys.nl.soap.values.DataTypeInt"
+                        digesterKind="possible" empty="false"
+                        encode="true" kind="simple" maxOccurs="1"
+                        maxOccursUnbounded="false" minOccurs="1"
+                        name="intA" namespace="http://tempuri.org/"
+                        type="{http://www.w3.org/2001/XMLSchema}int" value="">
+                        <facets>
+                            <restriction-facet name="fractionDigits" value="0"/>
+                            <restriction-facet name="maxInclusive" value="2147483647"/>
+                            <restriction-facet name="minInclusive" value="-2147483648"/>
+                            <restriction-facet name="whiteSpace" value="collapse"/>
+                        </facets>
+                    </soap-paramValue>
+                    <soap-paramValue
+                        dataType="com.neotys.nl.soap.values.DataTypeInt"
+                        digesterKind="possible" empty="false"
+                        encode="true" kind="simple" maxOccurs="1"
+                        maxOccursUnbounded="false" minOccurs="1"
+                        name="intB" namespace="http://tempuri.org/"
+                        type="{http://www.w3.org/2001/XMLSchema}int" value="">
+                        <facets>
+                            <restriction-facet name="fractionDigits" value="0"/>
+                            <restriction-facet name="maxInclusive" value="2147483647"/>
+                            <restriction-facet name="minInclusive" value="-2147483648"/>
+                            <restriction-facet name="whiteSpace" value="collapse"/>
+                        </facets>
+                    </soap-paramValue>
+                </soap-possibleChildren>
+            </soap-paramValue>
+        </soap-parameters>
+    </soap-method>
+</http-soap-action>

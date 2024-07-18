@@ -1,0 +1,55 @@
+<http-action actionType="1" contentType="application/json"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="POST" name="/#/pet/addPet" path="/v2/pet" postType="4"
+    recordedResponseCode="200" serverUid="petstore.swagger.io"
+    slaProfileEnabled="false" uid="b1ab8bf5-d56b-46d0-bfc9-7672db48eabc" useKeepAlive="true">
+    <binaryPostContentBase64><![CDATA[]]></binaryPostContentBase64>
+    <responsePageFileDescription>team/vus/@a@p@i @t@e@s@t@i@n@g/%resources%/recorded-responses/res_d752fc01-3f9f-44f4-9c84-b2e679bd908b.0</responsePageFileDescription>
+    <requestContentFileDescription>team/vus/@a@p@i @t@e@s@t@i@n@g/%resources%/recorded-requests/req_d752fc01-3f9f-44f4-9c84-b2e679bd908b.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0" endsWithSimple=","
+        extractFromVarNameAdv="" extractFromVarNameSimple=""
+        extractType="0" extractTypeAdv="0" extractTypeSimple="0"
+        matchNumber="1" matchNumberAdv="1" matchNumberSimple="1"
+        name="petID" refererUid="b1ab8bf5-d56b-46d0-bfc9-7672db48eabc"
+        regExp="id&quot;:(.*?)," regExpAdv="" setDefaultValue="true"
+        startsWithSimple="id&quot;:" template="$1$" templateAdv="$1$"
+        uid="16996d54-29dd-43f3-ab9d-e59565fcc00d" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="Connection" value="keep-alive"/>
+    <header name="content-type" value=" application/json"/>
+    <header name="access-control-allow-methods" value="GET,POST,DELETE,PUT"/>
+    <header name="access-control-allow-headers" value="Content-Type,api_key,Authorization"/>
+    <responseHeaders>HTTP/1.1 200 OK&#xd;
+Date: Wed, 17 Jul 2024 05:41:18 GMT&#xd;
+Content-Type: application/json&#xd;
+Content-Length: 157&#xd;
+Connection: keep-alive&#xd;
+Access-Control-Allow-Origin: *&#xd;
+Access-Control-Allow-Methods: GET, POST, DELETE, PUT&#xd;
+Access-Control-Allow-Headers: Content-Type, api_key, Authorization&#xd;
+Server: Jetty(9.2.9.v20150224)</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+    <textPostContent><![CDATA[{
+  "id": 0,
+  "category": {
+    "id": 12355,
+    "name": "ABX"
+  },
+  "name": "doggie",
+  "photoUrls": [
+    "string"
+  ],
+  "tags": [
+    {
+      "id": 123,
+      "name": "ABCC"
+    }
+  ],
+  "status": "available"
+}]]></textPostContent>
+</http-action>

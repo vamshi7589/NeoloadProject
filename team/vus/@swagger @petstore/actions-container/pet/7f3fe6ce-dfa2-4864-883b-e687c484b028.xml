@@ -1,0 +1,16 @@
+<http-action actionType="1" extractorInjectPathPolicy="2"
+    extractorPathPolicy="1" followRedirects="false"
+    generatedByClient="false" linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="${swagger_petstore_base_path}/pet/findByTags"
+    path="${swagger_petstore_base_path}/pet/findByTags" postType="1"
+    recordedResponseCode="200" serverUid="swagger_petstore_server"
+    slaProfileEnabled="false" uid="7f3fe6ce-dfa2-4864-883b-e687c484b028" useKeepAlive="false">
+    <responsePageFileDescription>team/vus/@swagger @petstore/%resources%/recorded-responses/res_7f3fe6ce-dfa2-4864-883b-e687c484b028</responsePageFileDescription>
+    <parameter encodeName="true" encodeValue="true" name="tags"
+        recordRawValue="" separator="=" value="" valueMode="USE_VALUE"/>
+    <responseHeaders>HTTP/1.1 200 OK
+Content-Type: application/json
+Content-Length: 558</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

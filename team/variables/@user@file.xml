@@ -1,0 +1,4 @@
+<variable-file delimiters="," filename="C:/Users/e40035012/Documents/NEOLOAD/UserFile.csv" name="UserFile" offset="1" order="3" policy="5" range="1" uid="8626ff39-7943-4b15-9256-9c9728bf932b" useFirstLine="true" whenOutOfValues="CYCLE_VALUES">
+<column name="Password" number="1"/>
+<column name="username" number="0"/>
+</variable-file>

@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="DELETE" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="36caf664-fbbc-4cc9-b076-6f98a7e5bf95" weightsEnabled="false">
+    <weighted-embedded-action uid="8e6f9f48-9663-4d6f-8356-788eac1a227a"/>
+</basic-logical-action-container>

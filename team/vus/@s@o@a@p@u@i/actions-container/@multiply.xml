@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Multiply" pacingEnd="0" pacingMode="MODE_NO_PACING"
+    pacingStart="0" pacingValue="0" slaProfileEnabled="false"
+    uid="5d582385-55cf-487e-9508-6d12a18988b1" weightsEnabled="false">
+    <weighted-embedded-action uid="a818f9ad-2016-4a97-8fb6-63b9c0873692"/>
+</basic-logical-action-container>

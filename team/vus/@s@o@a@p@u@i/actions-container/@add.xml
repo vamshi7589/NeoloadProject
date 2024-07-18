@@ -1,0 +1,6 @@
+<basic-logical-action-container element-number="1" execution-type="0"
+    name="Add" pacingEnd="0" pacingMode="MODE_NO_PACING" pacingStart="0"
+    pacingValue="0" slaProfileEnabled="false"
+    uid="cecbdc40-ffaa-4f1f-9849-d4d0ff6a54a0" weightsEnabled="false">
+    <weighted-embedded-action uid="0a2a40bb-611e-48e7-bbad-abafb63fc40f"/>
+</basic-logical-action-container>

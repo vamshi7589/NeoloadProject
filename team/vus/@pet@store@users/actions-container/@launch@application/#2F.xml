@@ -1,0 +1,61 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@pet@store@users/%resources%/recorded-artifacts/ebb26bf4-7b6b-4811-a5e3-6b6bf6a16d46.zip"
+    slaProfileEnabled="false" thinkTime="107"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="ebb26bf4-7b6b-4811-a5e3-6b6bf6a16d46">
+    <embedded-action>217732d2-b84f-451e-b045-8ae975bf8261</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_ebb26bf4-7b6b-4811-a5e3-6b6bf6a16d46.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/html"
+    eTag="W/&quot;1156-1670877034000&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 12 Dec 2022 20:30:34 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/" path="/" postType="6"
+    recordedArtifactZipFileName="team/vus/@pet@store@users/%resources%/recorded-artifacts/ebb26bf4-7b6b-4811-a5e3-6b6bf6a16d46.zip"
+    recordedResponseCode="200" responseSize="1156"
+    serverUid="petstore.octoperf.com" slaProfileEnabled="false"
+    uid="217732d2-b84f-451e-b045-8ae975bf8261" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_217732d2-b84f-451e-b045-8ae975bf8261.html</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_217732d2-b84f-451e-b045-8ae975bf8261.txt</requestContentFileDescription>
+    <variable-extractor assertionOnNoMatch="true"
+        defaultValue="&lt;NOT FOUND>" displayMode="0"
+        endsWithSimple="&lt;/sub>&lt;/p>" extractFromVarNameAdv=""
+        extractFromVarNameSimple="" extractType="0" extractTypeAdv="0"
+        extractTypeSimple="0" matchNumber="1" matchNumberAdv="1"
+        matchNumberSimple="1" name="Extracted_1"
+        refererUid="217732d2-b84f-451e-b045-8ae975bf8261"
+        regExp="Copyright(.*?)&lt;/sub>&lt;/p>" regExpAdv=""
+        setDefaultValue="true" startsWithSimple="Copyright"
+        template="$1$" templateAdv="$1$"
+        uid="a759ae7c-8875-41f2-a0fd-b9e4591dd862" xpath="">
+        <variable-extractor-group extract="true" occurs="1" pattern="" type="4"/>
+    </variable-extractor>
+    <header name="sec-fetch-mode" value="navigate"/>
+    <header name="sec-fetch-site" value="none"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="dnt" value="1"/>
+    <header name="priority" value="u=0, i"/>
+    <header name="sec-fetch-user" value="?1"/>
+    <header name="accept" value="text/html,application/xhtml+xml,application/xml;q=0.9,image/avif,image/webp,image/apng,*/*;q=0.8,application/signed-exchange;v=b3;q=0.7"/>
+    <header name="sec-ch-ua" value="&quot;Not/A)Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;126&quot;, &quot;Google Chrome&quot;;v=&quot;126&quot;"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="upgrade-insecure-requests" value="1"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="document"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Thu, 11 Jul 2024 05:14:45 GMT&#xd;
+content-type: text/html&#xd;
+vary: Accept-Encoding&#xd;
+etag: W/"1156-1670877034000"&#xd;
+last-modified: Mon, 12 Dec 2022 20:30:34 GMT&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains; preload&#xd;
+content-encoding: gzip</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>

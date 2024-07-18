@@ -1,0 +1,48 @@
+<http-page executeResourcesDynamically="false"
+    forceEncodingForDynamicResources="false" name="/css/jpetstore.css"
+    playRequestsSequentially="false"
+    recordedArtifactZipFileName="team/vus/@pet@store@users/%resources%/recorded-artifacts/c5c577d1-8de2-4b14-bd85-448ff726fce0.zip"
+    slaProfileEnabled="false" thinkTime="628"
+    thinkTimeMode="MODE_SIMPLE_THINK_TIME" thinkTimeRangeEnd=""
+    thinkTimeRangeStart="" uid="c5c577d1-8de2-4b14-bd85-448ff726fce0">
+    <embedded-action>415fa83c-b759-44a1-8b4e-bc746851a3d7</embedded-action>
+    <screenshotFileDescription>recorded-screenshots/sc_c5c577d1-8de2-4b14-bd85-448ff726fce0.jpg</screenshotFileDescription>
+</http-page>
+<http-action actionType="1" contentType="text/css"
+    eTag="W/&quot;5973-1670877034000&quot;"
+    extractorInjectPathPolicy="2" extractorPathPolicy="1"
+    followRedirects="false" generatedByClient="false"
+    lastModified="Mon, 12 Dec 2022 20:30:34 GMT"
+    linkExtractorSeveralMatchOccurrence="1"
+    linkExtractorSeveralMatchPolicy="1" linkExtractorType="6"
+    method="GET" name="/css/jpetstore.css" path="/css/jpetstore.css"
+    postType="6"
+    recordedArtifactZipFileName="team/vus/@pet@store@users/%resources%/recorded-artifacts/c5c577d1-8de2-4b14-bd85-448ff726fce0.zip"
+    recordedResponseCode="200" responseSize="5973"
+    serverUid="petstore.octoperf.com" slaProfileEnabled="false"
+    uid="415fa83c-b759-44a1-8b4e-bc746851a3d7" useKeepAlive="false">
+    <responsePageFileDescription>recorded-responses/res_415fa83c-b759-44a1-8b4e-bc746851a3d7.css</responsePageFileDescription>
+    <requestContentFileDescription>recorded-requests/req_415fa83c-b759-44a1-8b4e-bc746851a3d7.txt</requestContentFileDescription>
+    <header name="sec-fetch-mode" value="no-cors"/>
+    <header name="referer" value="https://petstore.octoperf.com/"/>
+    <header name="sec-ch-ua" value="&quot;Not/A)Brand&quot;;v=&quot;8&quot;, &quot;Chromium&quot;;v=&quot;126&quot;, &quot;Google Chrome&quot;;v=&quot;126&quot;"/>
+    <header name="sec-fetch-site" value="same-origin"/>
+    <header name="sec-ch-ua-mobile" value="?0"/>
+    <header name="accept-language" value="en-US,en;q=0.9"/>
+    <header name="sec-ch-ua-platform" value="&quot;Windows&quot;"/>
+    <header name="dnt" value="1"/>
+    <header name="priority" value="u=0"/>
+    <header name="accept-encoding" value="gzip, deflate, br, zstd"/>
+    <header name="sec-fetch-dest" value="style"/>
+    <header name="accept" value="text/css,*/*;q=0.1"/>
+    <header name="user-agent" value="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/126.0.0.0 Safari/537.36"/>
+    <responseHeaders>HTTP/2.0 200&#xd;
+date: Thu, 11 Jul 2024 05:14:46 GMT&#xd;
+content-type: text/css&#xd;
+vary: Accept-Encoding&#xd;
+etag: W/"5973-1670877034000"&#xd;
+last-modified: Mon, 12 Dec 2022 20:30:34 GMT&#xd;
+strict-transport-security: max-age=31536000; includeSubDomains; preload&#xd;
+content-encoding: gzip</responseHeaders>
+    <record-html-infos extractorRegExp="false" htmlType="0"/>
+</http-action>
